@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+/* general styling */
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+.form{
+  display: grid;
+  gap: 1rem;
+  margin-block: 4rem;
+}
+
+.form-group {
+  position: relative;
+}
+
+input {
+  display: block;
+  width: 300px;
+  height: 30px;
+  border: 1px solid #c2c8d0;
+}
+
+label {
+  display:block;
+  margin-bottom: 4px;
+  color: #999;
+  font-size: 16px;
+}
+	
+
+.btn {
+  display: inline-block;
+  background-color: #10a37f;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  padding: 7px;
+}
+
+

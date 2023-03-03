@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DOM example</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form id="FORM1" 
+	onsubmit="event.preventDefault();onFormSubmit();"
+	 class="form" action="#">
+		<h1>Form example</h1>
+		<p id="Sample" style="text-align: center;"></p>
+		<div class="form-group">
+			<label>User Name </label>
+			<input type="text" name="username" id="username">
+		</div>
+		<div class="form-group">
+			<label>Age</label> 
+			<input type="text" name="age" id="age">
+		</div>
+		<input type="submit" id="submit" class="btn" value="SUBMIT" />
+		<input type="button" onclick="event.preventDefault();resetForm()" class="btn" value="RESET"/>
+	</form>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
